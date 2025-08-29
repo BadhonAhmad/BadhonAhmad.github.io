@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nobel Ahmad Badhon - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 15, TypeScript, and Tailwind CSS, showcasing my skills as a Full Stack Developer and competitive programmer.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Clean, professional design with smooth animations
+- **Responsive**: Fully responsive design that works on all devices
+- **Modular Architecture**: Well-structured, industry-standard component organization
+- **Fast Performance**: Built with Next.js 15 for optimal performance
+- **TypeScript**: Type-safe code for better development experience
+- **SEO Optimized**: Built with SEO best practices
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Heroicons
+- **Package Manager**: npm
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                    # Next.js app directory
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Home page
+├── components/            # Reusable components
+│   ├── layout/           # Layout components
+│   │   ├── Navigation.tsx
+│   │   └── Footer.tsx
+│   ├── sections/         # Page sections
+│   │   ├── HeroSection.tsx
+│   │   ├── AboutSection.tsx
+│   │   ├── SkillsSection.tsx
+│   │   ├── ProjectsSection.tsx
+│   │   ├── AchievementsSection.tsx
+│   │   └── ContactSection.tsx
+│   └── ui/               # UI components
+│       └── ProjectCard.tsx
+├── data/                 # Data and configuration
+│   └── portfolio.ts      # Portfolio data
+└── lib/                  # Utility functions
+    └── utils.ts          # Helper functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 Sections
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Hero Section**: Introduction with animated elements
+2. **About Section**: Professional background and experience
+3. **Skills Section**: Technical skills categorized by type
+4. **Projects Section**: Key projects with descriptions and technologies
+5. **Achievements Section**: Competitive programming achievements
+6. **Contact Section**: Contact information and social links
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏆 Highlights
 
-## Learn More
+- **2000+ Problems Solved** across multiple competitive programming platforms
+- **Codeforces**: 1065+ problems (Handle: BADHON30, Max Rating: 1260)
+- **VJudge**: 435+ problems (Handle: 2020331030Badhon, Max Rating: 1505)
+- **CodeChef**: Max Rating 332 (Handle: badhon30)
+- **LeetCode**: 420+ problems solved (Handle: BADHON30)
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Key Projects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### EduVerse - AI-Powered E-Learning Platform
+- **Tech Stack**: Next.js, Express, React, MySQL, OpenAI
+- **Features**: AI-powered quiz generation, content management, note-taking system
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ACCOMO - Rental Management Android App
+- **Tech Stack**: Kotlin, MySQL, Android
+- **Features**: Communication system, payment tracking, management dashboard
 
-## Deploy on Vercel
+### Child Learning Web - Interactive Educational Platform
+- **Tech Stack**: JavaFX, Swing, OOP
+- **Features**: Interactive modules, quiz system, child-friendly interface
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎓 Education & Experience
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **BSc in Computer Science and Engineering**  
+  Shahjalal University of Science and Technology, Sylhet, Bangladesh (2022-Present)
+
+- **AI Training Specialist**  
+  Outlier (2022-Present)  
+  Experience in AI training, data annotation, and model evaluation
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd my-portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📝 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 🎨 Design Principles
+
+- **Mobile-First**: Responsive design starting from mobile
+- **Accessibility**: WCAG compliant with proper semantic HTML
+- **Performance**: Optimized images and efficient loading
+- **User Experience**: Smooth animations and intuitive navigation
+
+## 📞 Contact
+
+- **Email**: nobel.badhon@example.com
+- **Location**: Sylhet, Bangladesh
+- **GitHub**: [Your GitHub Profile]
+- **LinkedIn**: [Your LinkedIn Profile]
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ by Nobel Ahmad Badhon
